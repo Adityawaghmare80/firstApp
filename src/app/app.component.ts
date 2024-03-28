@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { Iobject } from './interface';
+import { Iobject } from './shared/modules/interface';
 
 @Component({
   selector: 'app-root',
@@ -19,7 +19,7 @@ export class AppComponent {
     {
       fname: "Rohan",
       lname: "Panchal",
-      email: "ropo@gmail.com",
+      email: "rohanp@gmail.com",
       contact: 123234
     },
     {
