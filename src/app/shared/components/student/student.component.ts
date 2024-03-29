@@ -8,7 +8,7 @@ import { Iobject } from "../../modules/interface";
 })
 
 export class StudentComponent {
-    players: string[] = ["Rohit Sharma","sachintendulkar", "Virat Kohli", "Shubman Gill", "Rinku Singh", "KL Rahul"];
+    players: string[] = ["Rohit Sharma", "Virat Kohli", "Shubman Gill", "Rinku Singh", "KL Rahul"];
     playersArr: Array<Iobject> = [
         {
             fname: "Rohit",
